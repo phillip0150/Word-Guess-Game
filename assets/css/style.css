@@ -1,0 +1,42 @@
+html {
+    background: url(https://vignette.wikia.nocookie.net/goosebumps/images/2/2d/Goosebumps_cover.png/revision/latest/scale-to-width-down/400?cb=20190403010944);
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    height: auto;
+    width: auto;
+    background-color:black;
+    /* background-color: #c60912; */
+}
+body {
+    
+    background-color: black !important;
+    
+    
+    
+}
+
+.container {
+    font-family: 'Creepster', cursive;
+    color: limegreen;
+    text-align: center;
+    margin-top: 40%;
+   
+}
+ p {
+    font-size: 30px;
+ }
+
+
+
+@media screen and (min-width: 700px) {
+    p {
+        font-size: 40px;
+           
+    }
+}
+@media screen and (min-width: 1500px) {
+    .container {  
+        margin-top: 20%; 
+        font-size: 40px;          
+    }
+}

@@ -3,17 +3,69 @@
   <head>
     <meta charset="UTF-8">
     <title>Looping Through Arrays</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|VT323&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    <div class="container">
+      <div class="game'">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Word Guess Game</h1>
+          </div>
+        </div>
 
-    <h1>The Psychic Game</h1>
-    <p>Guess what letter i'm thinkg of</p>
-    <p id="wins"></p>
-    <p id="losses"></p>
-    <p id="left"></p>
-    <p id="guesses"></p>
+        <div class="row">
+          <div class="col-md-12">
+              <p id="wins"></p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-12">
+              <p id="losses"></p>
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-md-12">
+              <p id="left"></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+              <p id="guesses"></p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-12">
+              <p id="word"></p>
+          </div>
+        </div>
+      </div>
+
+      <audio id="audio1" style="display:none">
+        <source src="https://ia802907.us.archive.org/13/items/correct-sound-effect/correct-sound-effect.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+      <audio id="audio2" style="display:none">
+        <source src="https://ia800901.us.archive.org/29/items/CartoonSlipSoundEffect2/Cartoon%20Slip%20Sound%20Effect%202.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+      </audio>
+   
+      <div class="row">
+          <div class="col-md-12">
+              <img src='https://i.ytimg.com/vi/cse3Xes7_Ys/maxresdefault.jpg' alt='blinking!' id='blinking_image' style="display: none; margin-left: auto; margin-right: auto; width: 50%;"/>
+              <div id='hiddenLose' style="display: none;">
+                <h1>YOU LOSE!</h1>
+              </div>  
+          </div>
+        </div>
+      
+
+    </div>
     <script src="javascript/game.js"></script>
 
   </body>
